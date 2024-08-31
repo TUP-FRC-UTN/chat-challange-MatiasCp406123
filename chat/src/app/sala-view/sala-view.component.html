@@ -1,0 +1,12 @@
+<div class="container justify-content:center mb-3  ">
+    <h2>Sala de Chat</h2>
+    <div class="row">
+        <h1 for="mensajeria" class="color:blue">Conversación</h1>
+        <div>
+            <div class="chat-messages">
+                @for (msg of mensajes; track msg) {
+                    <div class="message">{{ msg }}</div>
+                  }
+        </div>
+    </div>
+</div>
